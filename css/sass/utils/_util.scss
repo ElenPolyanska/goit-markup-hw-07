@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: var(--primary-font-weight); 400 normal РАБОТАЕТ ОТ БРАУЗЕРА*/
+    font-size: var(--primary-font-size);
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    background-color: var(--primary-white-color);
+    color: var(--main-text-color);
+}
+
+/* УТИЛИТЫ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin centered {
+    display: flex;
+    align-items: center;
+}

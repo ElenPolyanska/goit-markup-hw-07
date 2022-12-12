@@ -1,0 +1,36 @@
+/* Business */
+.business__list {
+    display: flex;
+}
+
+.business__card {
+    position: relative;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.business__img {
+    display: block;
+}
+
+.business__description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    padding: 27px 0;
+    text-align: center;
+
+    font-weight: var(--title-font-weight);
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    /* letter-spacing: 0.03em;
+    text-align: center; */
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,57 @@
+/* Features */
+.features {
+    padding-top: 62px;
+}
+
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features__item {
+    width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+// calc((100%-90)/4); а не работает такой калькулятор в scss?
+
+/*h2*/
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* ICONs box */
+.features__icon-box {
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+    background-color: var(--primary-background);
+    margin-bottom: 30px;
+    border-radius: 4px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+
+/*h3*/
+.features__title {
+    font-weight: var(--title-font-weight);
+    font-size: inherit;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+
+    margin-bottom: 10px;
+}
+
+/*.features p*/

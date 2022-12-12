@@ -1,0 +1,16 @@
+/*SECTION: Business, Team, Clients, Portfolio*/
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/*H2*/
+.section__title {
+    font-weight: var(--title-font-weight);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
+
+    margin-bottom: 50px;
+}
